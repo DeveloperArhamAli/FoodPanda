@@ -1,0 +1,72 @@
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+.logo {
+    width: 220px;
+}
+
+.dropdown-menu {
+    width: 10px !important;
+}
+
+input, button {
+    outline: none !important;
+    border: none !important;
+}
+
+.panda > img {
+    height: 500px;
+    width: 600px;
+}
+
+.hero .left {
+    height: 80vh;
+}
+
+.ri-focus-3-line, .bold {
+    font-weight: bolder;
+}
+
+.form-control {
+    width: 80% !important;
+}
+
+.bgimage {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 50vh;
+    width: 100%;
+}
+
+.bgimage > .card1 {
+    width: 40vw;
+    /* margin-left: 60px; */
+}
+
+.city-card {
+    width: 18rem;
+    height: 250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.qrcode {
+    width: 85px;
+}
+
+.part3 img {
+    height: 35px;
+}
+
+.footer a {
+    color: black;
+}
+
+.line {
+    height: 50px;
+    width: 1px;
+    background-color: black;
+}

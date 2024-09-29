@@ -1,0 +1,524 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Food & Grocery Delivery - Restaurants near me in Pakistan | foodpanda</title>
+
+    <!-- Fonts Cdn -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!-- Icon cdn -->
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet"/>
+
+    <!-- Bootstrap Cdn -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- Custom css -->
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/favicon.webp" type="image/x-icon">
+
+</head>
+<body>
+
+    <div class="main">
+
+        <!-- Navbar Starts  -->
+        
+        <nav class="navbar navbar-expand-md shadow-lg position-fixed w-100 bg-white z-2">
+
+            <div class="container-fluid d-flex justify-content-between">
+
+                <a class="navbar-brand" href="#"><img src="images/logo.jpg" alt="logo" class="logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse gap-1 me-5" id="navbarSupportedContent">
+
+                    <form class="d-flex ms-auto gap-1" role="search">
+                        <button class="btn btn-light">Login</button>
+                        <button class="btn btn-danger">Signup</button>
+                    </form>
+
+                    <div class="dropdown">
+                        <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="ri-global-line"></i>EN</button>
+                    </div>
+
+                    <i class="ri-briefcase-fill"></i>
+
+                </div>
+
+            </div>
+
+        </nav>
+
+        <!-- Navbar Ends  -->
+
+
+        <!-- Hero Section Starts -->
+
+        <div class="hero d-flex flex-column flex-lg-row align-items-lg-center justify-content-between vh-100 w-100 bg-body-tertiary" style="padding-top: 120px;">
+
+            <div class="left d-flex flex-column justify-content-center w-100 px-lg-5">
+
+                <h1 class="letter">It's the food and groceries you love, delivered</h1>
+
+                <div class="search">
+
+                    <div class=" gap-1 w-100">
+
+                        <div class="form-floating mb-3 h-25 border d-flex rounded">
+
+                            <input type="text" class="form-control" id="floatingInput" placeholder="Postal code">
+                            <label for="floatingInput">Your Street and street number</label>
+                            <span class="d-flex align-items-center justify-content-center"><i class="ri-focus-3-line me-2 text-danger bold"></i>Locate Me</span>
+
+                        </div>
+
+                        <button type="button" class="btn btn-danger mn h-100">Find Food</button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="right panda h-25">
+
+                <img src="images/panda.png" alt="panda" class="img-fluid">
+
+            </div>
+
+        </div>
+
+        <!-- Hero Section Ends -->
+
+
+        <!-- Info Section Starts -->
+
+        <h3 class="ms-5 py-5 bold">You prepare the food, we handle the rest</h3>
+        
+        <div class="bgimage position-relative" style="background-image: url(images/bg.webp);">
+
+            <div class="card card1 position-absolute top-50 w-75">
+
+                <div class="card-body">
+
+                    <h5 class="card-title">List your restaurant or shop on foodpanda</h5>
+                    <p class="card-text">
+                        Would you like millions of new customers to enjoy your amazing food and groceries? So would we! <br><br>
+
+                        It's simple: we list your menu and product lists online, help you process orders, pick them up, and deliver them to hungry pandas – in a heartbeat! <br><br>
+                        
+                        Interested? Let's start our partnership today!</p>
+                    <a href="#" class="btn btn-danger">Get Started</a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <h3 class="ms-5 py-5 bold" style="margin-top: 200px;">Find us in these cities and many more!</h3>        
+
+        <div class="container-fluid d-flex flex-wrap justify-content-evenly">
+
+            <div class="card position-relative city-card mb-4" style="background-image: url(images/islamad.webp);">
+                <div class="card-body position-absolute bottom-0">
+                    <a href="#" class="btn btn-light">Islamabad</a>
+                </div>
+            </div>
+
+            <div class="card position-relative city-card mb-4" style="background-image: url(images/karachi.webp);">
+                <div class="card-body position-absolute bottom-0">
+                    <a href="#" class="btn btn-light">Karachi</a>
+                </div>
+            </div>
+
+            <div class="card position-relative city-card mb-4" style="background-image: url(images/Lahore.webp);">
+                <div class="card-body position-absolute bottom-0">
+                    <a href="#" class="btn btn-light">Lahore</a>
+                </div>
+            </div>
+
+            <div class="card position-relative city-card mb-4" style="background-image: url(images/faisalabad.webp);">
+                <div class="card-body position-absolute bottom-0">
+                    <a href="#" class="btn btn-light">Faisalabad</a>
+                </div>
+            </div>
+
+            <div class="card position-relative city-card mb-4" style="background-image: url(images/Rawalpindi.webp);">
+                <div class="card-body position-absolute bottom-0">
+                    <a href="#" class="btn btn-light">Rawalpindi</a>
+                </div>
+            </div>
+
+            <div class="card position-relative city-card mb-4" style="background-image: url(images/city-tile-Abottabad.webp);">
+                <div class="card-body position-absolute bottom-0">
+                    <a href="#" class="btn btn-light">Abbotabad</a>
+                </div>
+            </div>
+
+            <div class="card position-relative city-card mb-4" style="background-image: url(images/city-tile-Bahawalpur.webp);">
+                <div class="card-body position-absolute bottom-0">
+                    <a href="#" class="btn btn-light">Bahawalpur</a>
+                </div>
+            </div>
+
+            <div class="card position-relative city-card mb-4" style="background-image: url(images/Rawalpindi.webp);">
+                <div class="card-body position-absolute bottom-0">
+                    <a href="#" class="btn btn-light">Rawalpindi</a>
+                </div>
+            </div>
+
+            <div class="card position-relative city-card mb-4" style="background-image: url(images/city-tile-DeraGhaziKhan.webp);">
+                <div class="card-body position-absolute bottom-0">
+                    <a href="#" class="btn btn-light">Dera Ghazi Khan</a>
+                </div>
+            </div>
+
+            <div class="card position-relative city-card mb-4" style="background-image: url(images/city-tile-Gujranwala.webp);">
+                <div class="card-body position-absolute bottom-0">
+                    <a href="#" class="btn btn-light">Gujranwala</a>
+                </div>
+            </div>
+
+            <div class="card position-relative city-card mb-4" style="background-image: url(images/city-tile-Gujrat.jpg.webp);">
+                <div class="card-body position-absolute bottom-0">
+                    <a href="#" class="btn btn-light">Gujrat</a>
+                </div>
+            </div>
+
+            <div class="card position-relative city-card mb-4" style="background-image: url(images/Hyderabad.webp);">
+                <div class="card-body position-absolute bottom-0">
+                    <a href="#" class="btn btn-light">Hyderabad</a>
+                </div>
+            </div>
+
+            <div class="card position-relative city-card mb-4" style="background-image: url(images/city-tile-Jhelum.webp);">
+                <div class="card-body position-absolute bottom-0">
+                    <a href="#" class="btn btn-light">Jhelum</a>
+                </div>
+            </div>
+
+            <div class="card position-relative city-card mb-4" style="background-image: url(images/city-tile-Kamoke.webp);">
+                <div class="card-body position-absolute bottom-0">
+                    <a href="#" class="btn btn-light">Kamoke</a>
+                </div>
+            </div>
+
+            <div class="card position-relative city-card mb-4" style="background-image: url(images/city-tile-Larkana.webp);">
+                <div class="card-body position-absolute bottom-0">
+                    <a href="#" class="btn btn-light">Larkana</a>
+                </div>
+            </div>
+
+            <div class="card position-relative city-card mb-4" style="background-image: url(images/city-tile-Mangla.webp);">
+                <div class="card-body position-absolute bottom-0">
+                    <a href="#" class="btn btn-light">Mangla</a>
+                </div>
+            </div>
+
+            <div class="card position-relative city-card mb-4" style="background-image: url(images/city-tile-Mardan.webp);">
+                <div class="card-body position-absolute bottom-0">
+                    <a href="#" class="btn btn-light">Mardan</a>
+                </div>
+            </div>
+
+            <div class="card position-relative city-card mb-4" style="background-image: url(images/Multan.webp);">
+                <div class="card-body position-absolute bottom-0">
+                    <a href="#" class="btn btn-light">Multan</a>
+                </div>
+            </div>
+
+            <div class="card position-relative city-card mb-4" style="background-image: url(images/city-tile-Murree.webp);">
+                <div class="card-body position-absolute bottom-0">
+                    <a href="#" class="btn btn-light">Murree</a>
+                </div>
+            </div>
+
+            <div class="card position-relative city-card mb-4" style="background-image: url(images/city-tile-Okara.webp);">
+                <div class="card-body position-absolute bottom-0">
+                    <a href="#" class="btn btn-light">Okara</a>
+                </div>
+            </div>
+
+            <div class="card position-relative city-card mb-4" style="background-image: url(images/city-tile-PanoAqil.webp);">
+                <div class="card-body position-absolute bottom-0">
+                    <a href="#" class="btn btn-light">Pano Aqil</a>
+                </div>
+            </div>
+
+            <div class="card position-relative city-card mb-4" style="background-image: url(images/Peshawar.webp);">
+                <div class="card-body position-absolute bottom-0">
+                    <a href="#" class="btn btn-light">Peshawar</a>
+                </div>
+            </div>
+
+            <div class="card position-relative city-card mb-4" style="background-image: url(images/city-tile-Quetta.webp);">
+                <div class="card-body position-absolute bottom-0">
+                    <a href="#" class="btn btn-light">Quetta</a>
+                </div>
+            </div>
+
+            <div class="card position-relative city-card mb-4" style="background-image: url(images/city-tile-RahimYarKhan.webp);">
+                <div class="card-body position-absolute bottom-0">
+                    <a href="#" class="btn btn-light">Rahim Yar Khan</a>
+                </div>
+            </div>
+
+            <div class="card position-relative city-card mb-4" style="background-image: url(images/city-tile-Sadiqabad.webp);">
+                <div class="card-body position-absolute bottom-0">
+                    <a href="#" class="btn btn-light">Sadiqabad</a>
+                </div>
+            </div>
+
+            <div class="card position-relative city-card mb-4" style="background-image: url(images/city-tile-Sahiwal.webp);">
+                <div class="card-body position-absolute bottom-0">
+                    <a href="#" class="btn btn-light">Sahiwal</a>
+                </div>
+            </div>
+
+            <div class="card position-relative city-card mb-4" style="background-image: url(images/city-tile-Sargodha.webp);">
+                <div class="card-body position-absolute bottom-0">
+                    <a href="#" class="btn btn-light">Sargodha</a>
+                </div>
+            </div>
+
+            <div class="card position-relative city-card mb-4" style="background-image: url(images/city-tile-Sheikhupura.jpg.webp);">
+                <div class="card-body position-absolute bottom-0">
+                    <a href="#" class="btn btn-light">Sheikhupura</a>
+                </div>
+            </div>
+
+            <div class="card position-relative city-card mb-4" style="background-image: url(images/Sialkot.webp);">
+                <div class="card-body position-absolute bottom-0">
+                    <a href="#" class="btn btn-light">Sialkot</a>
+                </div>
+            </div>
+
+            <div class="card position-relative city-card mb-4" style="background-image: url(images/Sukkur.webp);">
+                <div class="card-body position-absolute bottom-0">
+                    <a href="#" class="btn btn-light">Sukkur</a>
+                </div>
+            </div>
+
+            <div class="card position-relative city-card mb-4" style="background-image: url(images/city-tile-WahhCannt.webp);">
+                <div class="card-body position-absolute bottom-0">
+                    <a href="#" class="btn btn-light">Wahh Cantt</a>
+                </div>
+            </div>
+
+        </div>
+
+        <h3 class="ms-5 py-5 bold">Put us in your pocket</h3>
+
+        <div class="container bg-danger lg-px-5 pt-5 rounded text-white d-flex flex-column flex-lg-row align-items-center">
+
+            <div class="left">
+
+                <div class="part1">
+
+                    <h3>Download the food and groceries you love</h3>
+
+                </div>
+
+                <div class="part2 d-flex align-items-center gap-3 mt-4">
+
+                    <img src="images/qrcode.png" alt="qrcode" class="qrcode border border-white p-1 rounded">
+                    <p>It's all at your fingertips – the restaurants and shops you love. Find the right food and groceries to suit your mood, and make the first bite last. Go ahead, download us.</p>
+
+                </div>
+
+                <div class="part3 mt-4 d-flex flex-column flex-lg-row align-items-center gap-3">
+
+                    <img src="images/appstore.jpeg" alt="appstore" class="rounded">
+                    <img src="images/playstore.jpeg" alt="playstore" class="rounded mt-2 mt-lg-0">
+                    <img src="images/appgalery.png" alt="appgalery" class="rounded mt-2 mt-lg-0">
+
+                </div>
+
+            </div>
+
+            <div class="right">
+
+                <img src="images/phone.webp" alt="phone" style="height: 300px;">
+
+            </div>
+
+        </div>
+
+        <h3 class="ms-5 py-5 bold">Take your office out to lunch</h3>
+
+        <div class="bgimage position-relative" style="background-image: url(images/bg2.webp);">
+
+            <div class="card position-absolute col-10 col-lg-6 top-50 mr-5">
+
+                <div class="card-body">
+
+                    <h5 class="card-title">foodpanda for business</h5><br>
+                    <p class="card-text">Order lunch or fuel for work-from-home, late nights in the office, corporate events, client meetings, and much more.</p>
+                    <a href="#" class="btn btn-danger">Get Started</a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Info Section Ends -->
+
+
+        <!-- FAQ Section Starts -->
+
+        <div class="container-fluid px-5 pb-5" style="margin-top: 100px;">
+
+            <h2>Order food and groceries online from the best restaurants and shops on foodpanda.</h2>
+            <p>Are you hungry? Did you have a long and stressful day? Interested in getting a cheesy pizza delivered to your office or looking to avoid the weekly shop? Then foodpanda Pakistan is the right destination for you! foodpanda offers you a long and detailed list of the best restaurants and shops near you to help make your every day easier.</p>
+            <br>
+            <h2>What's new?</h2>
+            <p>✓ Wide variety of restaurants and shops, an abundance of cuisines & products.</p>
+            <p>✓ High quality delivery service.</p>
+            <p>✓ Live chat feature to give App users instant help when they need it.</p>
+            <p>✓ NEW: foodpanda grocery delivery! Discover the best shops, pharmacies, bakeries and more near you.</p>
+            <hr>
+
+            <h3>Frequently Asked Questions</h3>
+            <h4>How can I get foodpanda delivery?</h4>
+            <p>To get foodpanda delivery, simply locate the restaurants and shops near you by typing in your address, browse through a variety of restaurants and cuisines, check menus and prices, choose your dishes and add them to the basket. Now you only need to checkout and make the payment. Soon your delicious food will arrive at your doorstep!</p>
+            <br>
+            <h4>Which takeout restaurants open now near me?</h4>
+            <p>You can check which takeout restaurants are open now near you by simply typing your address in the location bar on foodpanda and pressing search. You will see all the available restaurants and shops that deliver to your area.</p>
+            <br>
+            <h4>Does foodpanda deliver 24 hours?</h4>
+            <p>Yes, foodpanda in Pakistan delivers 24 hours. However, many restaurants may be unavailable for a late-night delivery. Please check which places in Pakistan deliver to you within 24 hours by using your address. You can also order groceries 24 hours a day via pandamart.</p>
+            <br>
+            <h4>Can you pay cash for foodpanda?</h4>
+            <p>Yes, you can pay cash on delivery for foodpanda in Pakistan.</p>
+            <br>
+            <h4>How can I pay foodpanda online?</h4>
+            <p>You can pay online while ordering at foodpanda Pakistan by using a credit or debit card or PayPal.</p>
+            <h4>Can I order foodpanda for someone else?</h4>
+            <p>Yes, foodpanda Pakistan allows you to place an order for someone else. During checkout, just update the name and delivery address of the person you're ordering for. Please keep in mind that if the delivery details are not correct and the order cannot be delivered, we won't be able to process a refund.</p>
+            <br>
+            <h4>How much does foodpanda charge for delivery?</h4>
+            <p>Delivery fee charged by foodpanda in Pakistan depends on many operational factors, most of all - location and the restaurant you are ordering from. You can always check the delivery fee while forming your order. Besides, you can filter the restaurants by clicking on the "Free Delivery" icon at the top of your restaurant listing.</p>
+            <br>
+            <h4>What restaurants let you order online?</h4>
+            <p>There are hundreds of restaurants on foodpanda Pakistan that let you order online. For example, <span class="text-danger bold">KFC, McDonald's, Pizza Hut, OPTP, Hardee's, Domino's, Kababjees</span> and many-many more! In order to check all the restaurants near you that deliver, just type in your address and discover all the available places.</p>
+            <br>
+            <h4>Does foodpanda have minimum order?</h4>
+            <p>Yes, many restaurants have a minimum order. The minimum order value depends on the restaurant you order from and is indicated during your ordering process.</p>
+            <br>
+            <h4>What is the difference between delivery and Pick-Up?</h4>
+            <p>If you choose delivery, a foodpanda rider will collect your order from the restaurant and take it to your chosen delivery address. If you choose Pick-Up, you can takeaway your food directly from the restaurant for extra savings – and to jump to the front of the queue. Pick-Up orders are available for restaurants only.</p>
+            <br>
+            <h4>Order food and groceries online with foodpanda now and enjoy a great dining experience!</h4>
+
+        </div>
+
+        <hr>
+        
+        <pre class="d-flex align-items-center justify-content-evenly ">Laos   |   Cambodia   |   Myanmar   |   Thailand   |   Hong Kong   |   Taiwan   |   Malaysia   |   Philippines   |   Singapore   |   Bangladesh</pre>
+
+        <hr>
+
+        <!-- FAQ Section Ends -->
+
+
+        <!-- Footer Starts -->
+
+        <div class="footer p-lg-5">
+
+            <div class="up d-flex flex-column flex-lg-row justify-content-between">
+
+                <div class="section1 text-center">
+
+                    <span class="bold ">© foodpanda</span>
+
+                </div>
+
+                <div class="section2 d-flex flex-column gap-2 align-items-center text-center">
+
+                    <a href="">Press</a>
+                    <a href="">pandapay Terms and Conditions</a>
+                    <a href="">Security</a>
+                    <a href="">Carrers</a>
+                    <a href="">Cashback Terms and Conditions</a>
+                    <a href="">Partner with Us</a>
+                    <a href="">All Cities</a>
+                    <a href="">pandapro - Monthly Subscription Program</a>
+                    <a href="">Ramzan Deals</a>
+                    <a href="">Areas delivered in Lahore</a>
+
+                </div>
+
+                <div class="section3 d-flex flex-column gap-2 align-items-center text-center">
+
+                    <a href="">Help Center</a>
+                    <a href="">Terms and Conditions</a>
+                    <a href="">Download foodpanda Apps</a>
+                    <a href="">Suggest a Restaurant</a>
+                    <a href="">All cuisines</a>
+                    <a href="">pandago - request a driver</a>
+                    <a href="">Update on COVID-19 in Pakistan</a>
+                    <a href="">foodpanda Home Chef</a>
+                    <a href="">Areas delivered in Karachi</a>
+                    <a href="">Areas delivered in Islamabad</a>
+
+                </div>
+
+                <div class="section4 d-flex flex-column gap-2 align-items-center text-center">
+
+                    <a href="">Refunds with pandapay</a>
+                    <a href="">privacy policy</a>
+                    <a href="">Human rights policy</a>
+                    <a href="">Corporate Customer</a>
+                    <a href="">foodpanda Magazine</a>
+                    <a href="">foodpanda Vouchers and Coupons</a>
+                    <a href="">pandamart Grocery Delivery</a>
+                    <a href="">Become an Affiliate</a>
+                    <a href="">Areas delivered in Gujranwala</a>
+                    <a href="">Areas delivered in Peshawar</a>
+
+                </div>
+
+            </div>
+
+            <hr>
+
+            <div class="down d-flex align-items-center gap-5 justify-content-sm-between">
+
+                <div class="left d-flex flex-column flex-lg-row align-items-center justify-content-center">
+
+                    <img src="images/logo.jpg" alt="logo" class="logo">
+                    <div class="line d-none d-lg-block"></div>
+                    <img src="images/logo.jpg" alt="logo" class="logo">
+
+                </div>
+
+                <div class="right">
+
+                    <span class="p-2 border rounded"><i class="ri-instagram-fill"></i></span>
+                    <span class="p-2 border rounded"><i class="ri-facebook-fill"></i></span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Footer Ends -->
+        
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
